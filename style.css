@@ -12,19 +12,19 @@
 
 /* CSS variables */
 
-:root{
-  --ff:"Outfit", sans-serif;
+:root {
+  --ff: "Outfit", sans-serif;
 
-  --primary-light-clr:hsl(0, 0%, 100%);
-  --primary-dark-clr:hsl(212, 45%, 89%);
-  --secondary-light-clr:hsl(216, 15%, 48%);
-  --secondary-dark-clr:hsl(218, 44%, 22%);
+  --primary-light-clr: hsl(0, 0%, 100%);
+  --primary-dark-clr: hsl(212, 45%, 89%);
+  --secondary-light-clr: hsl(216, 15%, 48%);
+  --secondary-dark-clr: hsl(218, 44%, 22%);
 
-  --fw-light:400;
-  --fw-bold:700;
-  
-  --fs-heading:22px;
-   --fs-base:15px;
+  --fw-light: 400;
+  --fw-bold: 700;
+
+  --fs-heading: 22px;
+  --fs-base: 15px;
 }
 
 /* global view */
@@ -39,9 +39,8 @@ body {
 }
 
 main {
-  width: 40%;
+  width: 30%;
   margin: auto;
- 
 }
 
 img {
@@ -60,26 +59,26 @@ body {
 }
 
 main {
-  background-color:var(--primary-light-clr);
+  background-color: var(--primary-light-clr);
   border-radius: 20px;
   padding: 16px 16px 40px 16px;
-  border:solid 1px #000;
+  border: solid 1px #000;
 }
 
 img {
   border-radius: 10px;
 }
 
-section{
+section {
   padding: 16px 0;
 }
 
-h1{
-    color: var(--secondary-dark-clr);
-    text-align: center;
-    font-size: var(--fs-heading);
-    font-weight: var(--fw-bold);
-    padding-bottom: 16px;
+h1 {
+  color: var(--secondary-dark-clr);
+  text-align: center;
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-bold);
+  padding-bottom: 16px;
 }
 
 p {
@@ -97,46 +96,34 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-
 /* mobile */
 
-
-@media (min-width:700px) and (max-width:900px) {
-
-  main{
+@media (min-width: 700px) and (max-width: 900px) {
+  main {
     width: 50%;
   }
-
 }
 
-@media (min-width:550px) and (max-width:700px) {
-
-  main{
+@media (min-width: 550px) and (max-width: 700px) {
+  main {
     width: 65%;
   }
-
 }
 
-@media (min-width:450px) and (max-width:550px) {
-
-  main{
+@media (min-width: 450px) and (max-width: 550px) {
+  main {
     width: 70%;
   }
-
 }
 
-@media (min-width:400px) and (max-width:450px) {
-
-  main{
+@media (min-width: 400px) and (max-width: 450px) {
+  main {
     width: 75%;
   }
-
 }
 
-@media (min-width:375px) and (max-width:400px) {
-
-  main{
+@media (min-width: 375px) and (max-width: 400px) {
+  main {
     width: 80%;
   }
-
 }
